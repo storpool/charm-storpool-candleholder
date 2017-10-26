@@ -1,0 +1,2 @@
+repo: https://github.com/storpool/charm-storpool-candleholder.git
+includes: ['layer:basic']

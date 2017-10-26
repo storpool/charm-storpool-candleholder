@@ -1,0 +1,7 @@
+name: storpool-candleholder
+summary: Let subordinate charms be installed on a node.
+maintainer: StorPool <support@storpool.com>
+description: |
+  This charm does nothing, yet it allows subordinate charms to be installed.
+tags:
+  - ops
