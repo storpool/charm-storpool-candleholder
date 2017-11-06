@@ -7,7 +7,7 @@ does nothing yet allows other charms to attach to it.
 
 import os
 import sys
-import testtools
+import unittest
 
 import mock
 
@@ -20,7 +20,7 @@ if lib_path not in sys.path:
 from reactive import storpool_candleholder_charm as testee
 
 
-class TestCandleHolder(testtools.TestCase):
+class TestCandleHolder(unittest.TestCase):
     @mock.patch('charmhelpers.core.hookenv.status_set')
     @mock.patch('charmhelpers.core.hookenv.log')
     def test_candleholder(self, h_log, h_status_set):
