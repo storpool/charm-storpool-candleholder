@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 """
-A set of unit tests for the spcharms.config class that
-parses the output of the storpool_confshow command.
+A set of unit tests for the storpool-candleholder charm that
+does nothing yet allows other charms to attach to it.
 """
 
 import os
